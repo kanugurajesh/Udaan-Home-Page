@@ -38,15 +38,6 @@ header div {
     gap: 7px;
 } */
 
-/* #menu li {
-    width: 25px;
-    height: 2px;
-    background-color: white;
-}
-
-#menu li.transition {
-    transition: all 0.5s ease;
-} */
 
 .menu {
     display: flex;
@@ -57,7 +48,13 @@ header div {
     cursor: pointer;
     z-index: 1000;
 }
-    
+
+.menu div {
+    width: 25px;
+    height: 2px;
+    background-color: white;
+}
+
 .line1, .line2, .line3 {
     width: 100%;
     height: 2px;
