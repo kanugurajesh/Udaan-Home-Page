@@ -29,3 +29,17 @@ header div {
     align-items: center;
     gap: 10px;
 }
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#menu li {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
