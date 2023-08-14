@@ -71,9 +71,8 @@ header {
     height: 100vh;
     position: absolute;
     top: 0;
-    left: -50vw;
+    transform: translateX(-50vw);
     z-index: 1000;
-    transform: translateX(50vw);
     transition: transform 0.5s ease-in-out;
     padding: 40px;
     padding-top: 70px;
@@ -84,4 +83,8 @@ header {
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
+}
+
+.open#menu-content {
+    transform: translateX(0);
 }
