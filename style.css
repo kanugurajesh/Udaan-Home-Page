@@ -23,7 +23,7 @@ header {
     margin: 20px;
 }
 
-header div {
+#image {
     display: flex;
     justify-content: center;
     align-items: center;
