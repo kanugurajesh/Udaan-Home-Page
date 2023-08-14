@@ -44,8 +44,7 @@ header {
 .menu div {
     width: 30px;
     height: 3px;
-    background-color: black;
-    /* background-color: white; */
+    background-color: white;
 }
 
 .line1, .line2, .line3 {
@@ -68,7 +67,7 @@ header {
 }
 
 #first-div {
-    width: 60vw;
+    width: 55vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -100,6 +99,10 @@ header {
     color: transparent;
     letter-spacing: 1px;
     line-height: 1.5;
+}
+
+.open#menu div{
+    background-color: black;
 }
 
 .open#first-div {
