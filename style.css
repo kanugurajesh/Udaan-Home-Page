@@ -92,7 +92,7 @@ header {
     padding-top: 80px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     background: linear-gradient(to right, #ff9900, #ff00ff);
     -webkit-background-clip: text; 
     background-clip: text; 
