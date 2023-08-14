@@ -148,13 +148,14 @@ main {
     flex-direction: column;
     gap: 20px;
     margin-top: 50px;
+    margin-left: 40px;
 }
 
 .section1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .section1 span {
