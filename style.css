@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+header img {
+    width: 100px;
+    height: 100px;
+}
