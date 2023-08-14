@@ -73,7 +73,7 @@ header {
 }
 
 .show#first-div {
-    width: 56vw;
+    width: 58vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -81,7 +81,8 @@ header {
     transform: translate(-65vw);
     background-color: white;
     transition: transform 0.5s ease-in-out;
-    padding: 70px;
+    padding: 50px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -96,7 +97,7 @@ header {
 
 #menu-content {
     margin-right: 2vw;
-    width: 50vw;
+    width: 45vw;
     display: flex;
     flex-direction: row;
     justify-content:right;
@@ -109,14 +110,13 @@ header {
 }
 
 .ul#menu-content {
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
     transform: translateX(-50vw);
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     gap: 25px;
     background: linear-gradient(to right, #ff9900, #ff00ff);
     -webkit-background-clip: text; 
