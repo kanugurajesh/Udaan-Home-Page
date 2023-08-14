@@ -137,3 +137,8 @@ header {
 .open#menu-content {
     transform: translateX(0);
 }
+
+.li {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}

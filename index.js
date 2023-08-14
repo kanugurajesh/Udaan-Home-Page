@@ -50,3 +50,16 @@ function debounce(func, delay) {
 window.addEventListener('resize', debounce(handleResize, 300)); // Adjust debounce delay as needed
 
 menu.addEventListener('click', handleMenuClick);
+
+// add event listeners to all the li elements in menu-content
+const menu_content = document.querySelectorAll('#menu-content li');
+menu_content.forEach((li) => {
+    // add hover event listerne
+    li.addEventListener('mouseover', () => {
+        li.classList.add('li');
+    })
+
+    li.addEventListener('mouseout', () => {
+        li.classList.remove('li');
+    })
+})
