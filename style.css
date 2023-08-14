@@ -9,3 +9,9 @@ header img {
     width: 50px;
     height: 50px;
 }
+
+header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
