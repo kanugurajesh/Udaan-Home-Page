@@ -67,7 +67,7 @@ header {
 }
 
 #first-div {
-    width: 55vw;
+    width: 56vw;
     height: 100vh;
     position: absolute;
     top: 0;
@@ -75,7 +75,7 @@ header {
     transform: translate(-65vw);
     background-color: white;
     transition: transform 0.5s ease-in-out;
-    padding: 65px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -89,7 +89,7 @@ header {
     transform: translateX(-50vw);
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
-    padding-top: 70px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 15px;
