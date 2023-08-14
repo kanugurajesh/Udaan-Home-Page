@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,15 +30,6 @@ header {
     gap: 10px;
 }
 
-/* #menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-} */
-
-
 .menu {
     display: flex;
     flex-direction: column;
@@ -50,7 +41,7 @@ header {
 }
 
 .menu div {
-    width: 25px;
+    width: 30px;
     height: 2px;
     background-color: white;
 }
@@ -63,7 +54,7 @@ header {
 }
     
 .open .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-40deg) translate(-4px, 4px);
 }
 
 .open .line2 {
@@ -71,5 +62,73 @@ header {
 }
 
 .open .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
+    transform: rotate(40deg) translate(-7px, -6px);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,188,255,1) 0%, rgba(0,137,255,1) 0%, rgba(9,53,121,1) 0%, rgba(0,146,255,1) 100%, rgba(0,146,255,1) 100%, rgba(2,126,226,1) 100%);
+    color: white;
+}
+
+header img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.menu div {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+.line1, .line2, .line3 {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+    
+.open .line1 {
+    transform: rotate(-45deg) translate(-6.2px, 6px);
+}
+
+.open .line2 {
+    opacity: 0;
+}
+
+.open .line3 {
+    transform: rotate(45deg) translate(-2.5px, -4px);
 }
