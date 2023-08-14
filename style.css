@@ -73,7 +73,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(-56vw);
+    transform: translate(-65vw);
     background-color: white;
     transition: transform 0.5s ease-in-out;
     padding: 70px;
