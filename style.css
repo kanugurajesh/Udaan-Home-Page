@@ -91,15 +91,17 @@ header {
     width:70vw;
     height: 10vh;
     display: flex;
+    justify-content: right;
 }
 
 #menu-content {
-    width: 70vw;
+    margin-right: 2vw;
+    width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:right;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     color: white;
     font-size: 1rem;
     letter-spacing: 1px;
