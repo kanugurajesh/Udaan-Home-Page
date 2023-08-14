@@ -24,6 +24,12 @@ header {
     margin: 20px;
 }
 
+.showh {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
 #image {
     display: flex;
     justify-content: center;
@@ -66,7 +72,7 @@ header {
     transform: rotate(45deg) translate(-2.5px, -4px);
 }
 
-#first-div {
+.show#first-div {
     width: 56vw;
     height: 100vh;
     position: absolute;
@@ -81,15 +87,28 @@ header {
     gap: 10px;
 }
 
+#first-div {
+    width:70vw;
+    height: 10vh;
+    display: flex;
+}
+
 #menu-content {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.ul#menu-content {
     width: 50vw;
     height: 100vh;
-    position: absolute;
-    top: 0;
     transform: translateX(-50vw);
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
-    padding-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 25px;
