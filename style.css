@@ -10,6 +10,12 @@ header img {
     height: 50px;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
 header div {
     display: flex;
     justify-content: center;
