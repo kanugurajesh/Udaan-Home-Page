@@ -187,6 +187,11 @@ main {
     font-weight: bolder;
 }
 
+.section1 p {
+    color: #b2b3b7;
+    font-weight: 500;
+}
+
 @media (min-width:800px) {
     header #image {
         margin-left: 40px;
