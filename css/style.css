@@ -161,7 +161,7 @@ main {
 .section1 div {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 .section1 h1 {
