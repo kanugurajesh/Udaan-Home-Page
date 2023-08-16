@@ -172,3 +172,9 @@ main {
     color: transparent;
     font-weight: bolder;
 }
+
+@media (min-width:800px) {
+    header #image {
+        margin-left: 40px;
+    }
+}
