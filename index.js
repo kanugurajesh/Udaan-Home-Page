@@ -63,3 +63,21 @@ menu_content.forEach((li) => {
         li.classList.remove('li');
     })
 })
+
+// Get a reference to the section1 h1 element
+const section1Header = document.querySelector('.section1 h1');
+
+// Define the initial font size and the increase per 50px
+const initialFontSize = 1.5; // Initial font size in rem
+const fontSizeIncrease = 0.1; // Font size increase per 50px in rem
+
+// Function to update the font size based on the window width
+function updateFontSize() {
+    const windowWidth = window.innerWidth;
+    const newFontSize = initialFontSize + ((windowWidth - 400) / 50) * fontSizeIncrease;
+    section1Header.style.fontSize = `${newFontSize}rem`;
+}
+
+// Call the function initially and whenever the window is resized
+updateFontSize();
+window.addEventListener('resize', updateFontSize);

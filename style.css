@@ -172,15 +172,3 @@ main {
     color: transparent;
     font-weight: bolder;
 }
-
-@media (min-width:400px) {
-    .section1 h1 {
-        font-size: 1.6rem;
-    }
-}
-
-@media (min-width:450px) {
-    .section1 h1 {
-        font-size: 1.7rem;
-    }
-}
