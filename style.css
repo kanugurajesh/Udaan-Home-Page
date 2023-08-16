@@ -162,7 +162,7 @@ main {
     font-size: 1.5rem;
 }
 
-.section1 span {
+.section1 h1 span {
     display: block;
     letter-spacing: 1px;
     line-height: 1.5;
