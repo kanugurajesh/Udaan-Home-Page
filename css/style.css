@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    user-select: none;
 }
 
 body {
@@ -229,7 +230,7 @@ main {
 }
 
 .section1 p {
-    color: #b2b3b7;
+    color: #FFFFF7 ;
     font-weight: 500;
     padding: 4px;
 }
