@@ -5,11 +5,13 @@
     padding-left: 20px;
 }
 
-/* .section2 {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding-left: 20px;
-    justify-content: space-between;
-    padding-right: 100px;
-} */
+@media (min-width:800px) {
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding-left: 20px;
+        justify-content: space-between;
+        padding-right: 100px;
+    }
+}
