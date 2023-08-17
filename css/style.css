@@ -225,6 +225,8 @@ main {
     background-clip: text; 
     color: transparent;
     font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 1px;
 }
 
 .section1 h1 span {
