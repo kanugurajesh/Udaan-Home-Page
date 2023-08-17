@@ -112,7 +112,7 @@ header {
 
 .ul#menu-content {
     width: 45vw;
-    height: 100vh;
+    height: 100%;
     transform: translateX(-50vw);
     z-index: 1000;
     transition: transform 0.5s ease-in-out;
@@ -125,6 +125,7 @@ header {
     color: transparent;
     letter-spacing: 1px;
     line-height: 1.5;
+    z-index: 1;
 }
 
 .open#menu div{
