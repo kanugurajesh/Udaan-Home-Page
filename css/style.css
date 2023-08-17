@@ -126,7 +126,6 @@ header {
     letter-spacing: 1px;
     line-height: 1.5;
     z-index: 1;
-    /* stop scrolling in window */
 }
 
 .open#menu div{
@@ -171,52 +170,36 @@ main {
     font-size: 1.5rem;
 }
 
-/* .section1 h3::after {
-    content: '';
-    background-color: red;
-    width: 200px;
-    padding: 10px;
-    position: absolute;
-    left: -20px;
+.button {
+    --color: hsl(208,72%,39%);
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 3px solid var(--color);
+    color: white;
+    padding: .5em 1em;
+    border-radius: .25em;
+    position: relative;
+    isolation: isolate;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 190px;
 }
 
-.section1 h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    word-spacing: 2px;
-    position: relative;
-} */
-
-.section1 h3::after {
+.button::after {
     content: '';
-    background-color: red;
-    height: 100%; /* Adjust the height to match the h3's height */
-    width: 0; /* Start with no width */
     position: absolute;
-    top: 0;
-    left: 0;
-    transition: width 0.3s ease; /* Smooth transition for the width property */
     z-index: -1;
+    background: var(--color);
+    inset: 0;
+    scale: 0 1;
+    transform-origin: right;
+    transition: scale 450ms;
 }
 
-.section1 h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    word-spacing: 2px;
-    position: relative;
-    width: 160px;
-    z-index: 10;
-    overflow: hidden; /* Hide any overflow from pseudo-element */
-    padding: 10px 4px;
-}
-
-.section1 h3:hover::after {
-    width: 100%;
-    /* left: 100%; */
+.button:hover::after,.button:focus-visible::after {
+    transform-origin: left;
+    scale: 1 1;
 }
 
 .decorate {

@@ -35,11 +35,11 @@ function updateWordsCount() {
 
     const intervalWord = setInterval(function() {
         words_count += 1;
-        words.innerText = '$'+words_count+'M';
+        words.innerText = words_count+'M';
 
         if (words_count >= 230) {
             clearInterval(intervalWord);
-            words.innerText = '$230M+';
+            words.innerText = '230M+';
         }
     },5);
 }
