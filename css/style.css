@@ -219,16 +219,18 @@ main {
     /* left: 100%; */
 }
 
-
-.section1 h1 span {
-    display: block;
-    letter-spacing: 1px;
-    line-height: 1.5;
+.decorate {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,137,255,1) 0%, rgba(9,53,121,1) 0%, rgba(0,255,213,1) 0%, rgba(0,146,255,1) 100%, rgba(2,126,226,1) 100%);
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
     font-weight: bolder;
+}
+
+.section1 h1 span {
+    display: block;
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 .section1 p {
