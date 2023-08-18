@@ -25,9 +25,18 @@
 
 .section3 .div2 div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+
+.section3 .div2 div a {
+    text-decoration: none;
+    color: white;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width:800px) {
