@@ -23,6 +23,13 @@
 
 }
 
+.section3 .div2 div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
 @media (min-width:800px) {
     .section2 {
         display: flex;
