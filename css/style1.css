@@ -109,6 +109,15 @@
     }
 }
 
+@media (min-width:900px) {
+    .section2 .div1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+    }
+}
+
 @media (min-width:960px) {
     .section3 .div2 div a {
         width: 180px;
