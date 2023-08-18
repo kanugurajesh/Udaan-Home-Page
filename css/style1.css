@@ -7,7 +7,7 @@
 }
 
 .section3 {
-    margin-top: 30px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -39,11 +39,15 @@
     width: 180px;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: #1a1a1a;
+    /* color: white; */
+    /* background-color: #1a1a1a; */
     padding: 10px 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); */
+}
+
+.section3 .div2 h2 {
+    letter-spacing: 1px;
 }
 
 @media (min-width:800px) {
@@ -59,7 +63,7 @@
     .section3 {
         display: flex;
         flex-direction: row;
-        gap: 20px;
+        gap: 40px;
         padding-left: 20px;
         justify-content: space-around;
         padding-right: 40px;
@@ -82,43 +86,35 @@
         display: flex;
         flex-direction: row;
         gap: 20px;
-        align-items: center;
+        justify-content: space-around;
+        /* align-items: center; */
     }
 
     .section3 .div2 div a {
         width: 120px;
         text-align: center;
         text-decoration: none;
-        color: white;
-        background-color: #1a1a1a;
         padding: 10px 20px;
         border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }   
 }
 
 @media (min-width:820px) {
     .section3 .div2 div a {
-        width: 150px;
+        width: 140px;
         text-align: center;
         text-decoration: none;
-        color: white;
-        background-color: #1a1a1a;
         padding: 10px 20px;
         border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }
 }
 
-@media (min-width:850px) {
+@media (min-width:960px) {
     .section3 .div2 div a {
-        width: 160px;
+        width: 180px;
         text-align: center;
         text-decoration: none;
-        color: white;
-        background-color: #1a1a1a;
         padding: 10px 20px;
         border-radius: 10px;
-        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     }
 }
