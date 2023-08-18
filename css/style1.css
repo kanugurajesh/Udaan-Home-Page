@@ -31,7 +31,8 @@
 }
 
 .section3 .div2 div a {
-    width: 200px;
+    width: 180px;
+    text-align: center;
     text-decoration: none;
     color: white;
     background-color: #1a1a1a;
