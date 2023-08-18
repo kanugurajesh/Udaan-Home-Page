@@ -24,11 +24,16 @@
 }
 
 .section3 .div2 div {
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+
+.section3 .div2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .section3 .div2 div a {
