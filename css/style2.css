@@ -25,3 +25,10 @@
     gap: 20px;
     margin-top: 20px;
 }
+
+.section4 .div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
