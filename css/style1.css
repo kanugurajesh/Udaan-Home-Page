@@ -22,6 +22,14 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+.section3 .div2 a {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 .section3 .div2 a img {
     /* change the svg color */
     filter: invert(1);
@@ -44,7 +52,7 @@
 }
 
 .section3 .div2 div a {
-    width: 180px;
+    width: 250px;
     text-align: center;
     text-decoration: none;
     /* color: white; */
