@@ -2,7 +2,7 @@
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    /* gap: 25px; */
     padding-left: 20px;
     padding-right: 40px;
 }
