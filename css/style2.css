@@ -27,7 +27,19 @@
 
 .section4 .div3 {
     display: flex;
+    width: calc(100vw - 117px);
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
+}
+
+.section4 .div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    overflow-x: scroll;
+}
+
+.section4 .div1::-webkit-scrollbar {
+    display: none;
 }
