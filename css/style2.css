@@ -47,9 +47,9 @@
 @media (min-width:800px) {
     .section4 .div3 {
         display: flex;
-        width: calc(100vw - 117px);
+        /* width: calc(100vw - 117px); */
         flex-direction: row-reverse;
-        gap: 20px;
+        gap: 30px;
         margin-top: 20px;
     }
 
