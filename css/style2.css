@@ -1,5 +1,17 @@
 .section4 {
-    margin-top: 60px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.section4 iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .section4 h1{
