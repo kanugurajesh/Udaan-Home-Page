@@ -44,6 +44,19 @@
     display: none;
 }
 
+
+.section5 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.section5 h1 {
+    text-align: center;
+}
+
 @media (min-width:800px) {
     .section4 .div3 {
         display: flex;
