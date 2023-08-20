@@ -55,9 +55,10 @@ function handleLinkClick() {
         document.body.style.overflow = 'auto';
     }
 }
+
+
 // Initial call to handleResize to set initial state based on window size
 handleResize();
-handleLinkClick();
 
 // Add debouncing to the resize event using a utility function
 function debounce(func, delay) {
@@ -86,6 +87,10 @@ menu_content.forEach((li) => {
     li.addEventListener('mouseout', () => {
         li.classList.remove('li');
     })
+})
+
+links.forEach((link) => {
+    link.addEventListener('click', handleLinkClick);
 })
 
 // Get a reference to the section1 h1 element
