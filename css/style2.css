@@ -26,3 +26,17 @@
 .section5 h1 {
     text-align: center;
 }
+
+@media (min-width:600px) {
+    #contain {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 600px;
+    }
+
+    .section4 iframe {
+        width: 300px;
+        height: 320px;
+    }
+}
