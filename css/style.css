@@ -126,12 +126,15 @@ header {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.ul#menu-content a {
     background: linear-gradient(to right, #ff9900, #ff00ff);
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
-    letter-spacing: 1px;
-    line-height: 1.5;
 }
 
 .open#menu div{
