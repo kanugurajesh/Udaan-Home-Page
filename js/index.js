@@ -45,6 +45,13 @@ function handleLinkClick() {
     menu.classList.toggle('open');
     menu_list.classList.toggle('open');
     first_div.classList.toggle('open');
+
+    if (isMenuOpen) {
+        document.body.style.overflow = 'hidden';
+    }
+    else {
+        document.body.style.overflow = 'auto';
+    }
 }
 
 // Initial call to handleResize to set initial state based on window size
