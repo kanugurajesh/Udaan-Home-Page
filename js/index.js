@@ -2,6 +2,8 @@ const menu = document.querySelector('#menu');
 const menu_list = document.querySelector('#menu-content');
 const first_div = document.querySelector('#first-div');
 const header = document.querySelector('#header');
+const links = document.querySeleectorAll('.links')
+
 let isMenuOpen = false; // Add a flag to track menu open state
 
 function handleResize() {
@@ -39,8 +41,23 @@ function handleMenuClick() {
     }
 }
 
+function handleLinkClick() {
+    isMenuOpen = !isMenuOpen; // Toggle menu state
+    menu.classList.toggle('open');
+    menu_list.classList.toggle('open');
+    first_div.classList.toggle('open');
+    console.log('click');
+    // stop scrolling
+    if (isMenuOpen) {
+        document.body.style.overflow = 'hidden';
+    }
+    else {
+        document.body.style.overflow = 'auto';
+    }
+}
 // Initial call to handleResize to set initial state based on window size
 handleResize();
+handleLinkClick();
 
 // Add debouncing to the resize event using a utility function
 function debounce(func, delay) {
