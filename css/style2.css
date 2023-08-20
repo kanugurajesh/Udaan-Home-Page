@@ -135,6 +135,13 @@ footer {
     padding-right: 40px;
 }
 
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 @media (min-width:320px) {
     .contain {
         display: flex;
