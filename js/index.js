@@ -41,16 +41,8 @@ function handleMenuClick() {
 }
 
 function handleLinkClick() {
-    isMenuOpen = !isMenuOpen; // Toggle menu state
-    menu.classList.toggle('open');
-    menu_list.classList.toggle('open');
-    first_div.classList.toggle('open');
-
-    if (isMenuOpen) {
-        document.body.style.overflow = 'hidden';
-    }
-    else {
-        document.body.style.overflow = 'auto';
+    if (window.innerWidth < 800) {
+        handleMenuClick();
     }
 }
 
