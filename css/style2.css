@@ -93,7 +93,7 @@
 .profile-data {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     letter-spacing: 1px;
 }
 
