@@ -65,6 +65,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
     margin-top: 50px;
     text-align: center;
 }
@@ -149,4 +150,19 @@
     #sec5-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    #sec4 img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
 }
