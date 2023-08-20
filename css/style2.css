@@ -135,6 +135,7 @@ footer {
     padding-left: 20px;
     padding-right: 40px;
     color: white;
+    gap: 20px;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 100%, rgba(9,53,121,1) 100%, rgba(0,255,213,1) 100%, rgba(2,126,226,1) 100%, rgba(0,146,255,1) 100%);
 }
