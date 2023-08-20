@@ -224,17 +224,41 @@ main {
     padding: 4px;
 }
 
-@media (min-width:400px) {
+@media (min-width:396px) {
+    .button {
+        width: 235px;
+    }
+}
+
+@media (min-width:685px) {
+    header #image {
+        margin-left: 40px;
+    }
+
+    .button {
+        width: 245px;
+    }
+}
+
+@media (min-width:878px) {
     .button {
         width: 250px;
     }
 }
 
-@media (min-width:800px) {
-    header #image {
-        margin-left: 40px;
+@media (min-width:974px) {
+    .button {
+        width: 255px;
     }
+}
 
+@media (min-width:1072px) {
+    .button {
+        width: 260px;
+    }
+}
+
+@media (min-width:1168px) {
     .button {
         width: 265px;
     }
