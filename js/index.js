@@ -26,20 +26,20 @@ function handleResize() {
     }
 }
 
-function handleMenuClick() {
-    isMenuOpen = !isMenuOpen; // Toggle menu state
-    menu.classList.toggle('open');
-    menu_list.classList.toggle('open');
-    first_div.classList.toggle('open');
-    console.log('click');
-    // stop scrolling
-    if (isMenuOpen) {
-        document.body.style.overflow = 'hidden';
-    }
-    else {
-        document.body.style.overflow = 'auto';
-    }
-}
+// function handleMenuClick() {
+//     isMenuOpen = !isMenuOpen; // Toggle menu state
+//     menu.classList.toggle('open');
+//     menu_list.classList.toggle('open');
+//     first_div.classList.toggle('open');
+//     console.log('click');
+//     // stop scrolling
+//     if (isMenuOpen) {
+//         document.body.style.overflow = 'hidden';
+//     }
+//     else {
+//         document.body.style.overflow = 'auto';
+//     }
+// }
 
 function handleLinkClick() {
     isMenuOpen = !isMenuOpen; // Toggle menu state
