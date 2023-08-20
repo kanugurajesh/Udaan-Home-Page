@@ -31,7 +31,9 @@ header {
     margin: 20px;
 }
 
-#image {
+#image a {
+    text-decoration: none;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
