@@ -13,7 +13,7 @@ function updateUserCount() {
             clearInterval(intervalId);
             users.innerText = '360+' // Stop the interval when user_count reaches 1000
         }
-    }, 5);
+    }, 2);
 }
 
 function updateCompanyCount() {
@@ -27,7 +27,7 @@ function updateCompanyCount() {
             clearInterval(intervalCompany);
             company.innerText = '230+'
         }
-    }, 5);
+    }, 2);
 }
 
 function updateWordsCount() {
@@ -41,7 +41,7 @@ function updateWordsCount() {
             clearInterval(intervalWord);
             words.innerText = '230M+';
         }
-    },5);
+    },2);
 }
 
 updateUserCount();
