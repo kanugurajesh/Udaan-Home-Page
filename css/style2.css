@@ -150,7 +150,7 @@ footer h4 {
     color: transparent;
 }
 
-footer div {
+#footer-data div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -209,4 +209,12 @@ footer div img {
         padding: 20px;
     }
 
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 80px;
+        align-items: center;
+        padding: 30px;
+    }
 }
