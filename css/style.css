@@ -104,11 +104,15 @@ header {
     justify-content:right;
     align-items: center;
     gap: 30px;
-    /* color: hsl(208,72%,39%); */
     color: white;
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.5;
+}
+
+#menu-content a {
+    color: white;
+    text-decoration: none;
 }
 
 .ul#menu-content {
