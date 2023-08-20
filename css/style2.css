@@ -131,7 +131,7 @@ footer {
     margin-top: 50px;
     display: flex;
     flex-direction:column;
-    padding: 20px;
+    padding: 30px;
     padding-left: 20px;
     padding-right: 40px;
     color: white;
@@ -141,6 +141,7 @@ footer {
 
 footer h4 {
     margin: 0;
+    margin-bottom: 5px;
     font-size: 1.3rem;
     font-weight: 500;
     background: linear-gradient(to right, #ff9900, #ff00ff);
