@@ -183,7 +183,7 @@ main {
     isolation: isolate;
     letter-spacing: 1px;
     word-spacing: 1px;
-    width: 190px;
+    width: 220px;
 }
 
 .button::after {
@@ -227,5 +227,9 @@ main {
 @media (min-width:800px) {
     header #image {
         margin-left: 40px;
+    }
+
+    .button {
+        width: 265px;
     }
 }
