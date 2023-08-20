@@ -224,7 +224,7 @@ main {
     padding: 4px;
 }
 
-@media (min-width:396px) {
+@media (min-width:380px) {
     .button {
         width: 235px;
     }
