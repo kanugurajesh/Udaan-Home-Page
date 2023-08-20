@@ -50,6 +50,17 @@
     height: 100px;
 }
 
+.section4 h4 {
+    text-align: center;
+}
+
+#sec4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
 @media (min-width:320px) {
     .contain {
         display: flex;
@@ -61,6 +72,7 @@
         width: 200px;
         height: 200px;
     }
+    
 }
 
 @media (min-width:600px) {
