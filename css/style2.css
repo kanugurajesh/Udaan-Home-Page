@@ -146,6 +146,10 @@ footer div {
     gap: 10px;
 }
 
+footer div img {
+    margin-bottom: 10px;
+}
+
 @media (min-width:320px) {
     .contain {
         display: flex;
