@@ -1,3 +1,11 @@
+.section4 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
 .section4 h1{
     margin: auto;
     margin-bottom: 40px;
