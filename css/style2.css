@@ -16,23 +16,46 @@
 }
 
 .section5 {
-    margin-top: 80px;
+    width: 100%;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding-left: 20px;
     padding-right: 40px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+}
+
+.section5 .box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
 }
 
 .section5 h1 {
     text-align: center;
 }
 
-@media (min-width:400px) {
+.section5 img {
+    width: 100px;
+    height: 100px;
+}
+
+@media (min-width:320px) {
     #contain {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 300px;
+    }
+
+    #contain iframe {
+        width: 200px;
+        height: 200px;
     }
 }
 
