@@ -51,24 +51,24 @@
 }
 
 @media (min-width:320px) {
-    #contain {
+    .contain {
         display: flex;
         flex-direction: column;
         margin: auto;
     }
 
-    #contain iframe {
+    .contain iframe {
         width: 200px;
         height: 200px;
     }
 }
 
 @media (min-width:600px) {
-    #contain {
+    .contain {
         width: 400px;
     }
 
-    #contain iframe {
+    .contain iframe {
         width: 400px;
         height: 300px;
     }
