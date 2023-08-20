@@ -56,7 +56,6 @@ function handleLinkClick() {
     }
 }
 
-
 // Initial call to handleResize to set initial state based on window size
 handleResize();
 
@@ -89,9 +88,9 @@ menu_content.forEach((li) => {
     })
 })
 
-links.forEach((link) => {
-    link.addEventListener('click', handleLinkClick);
-})
+// links.forEach((link) => {
+//     link.addEventListener('click', handleLinkClick);
+// })
 
 // Get a reference to the section1 h1 element
 const section1Header = document.querySelector('.section1 h1');
